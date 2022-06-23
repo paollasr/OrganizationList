@@ -5,3 +5,7 @@ This project aims to test basic JS functions and methods by creating a dynamic l
 - delete item
 - update item
 - save item on browser local storage
+
+##Issues to be fixed
+- update item
+- local storage when page is updated
