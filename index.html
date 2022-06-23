@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+
+  <title>List</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <h1>Bday List</h1>
+  <p>Input the itens you think we will need,yay!</p>
+  <main class="content">
+
+    <div class="principal">
+
+      <div class="bag"></div>
+      <form action="" class="addItem" id="newItem">
+        <label for="name">Item Name</label>
+        <input type="text" name="name" id="name">
+        <label for="quantity">Quantity</label>
+        <input type="number" name="quantity" id="quantity">
+        <input type="submit" value="Add" class="register" id="register">
+      </form>
+    </div>
+
+    <ul class="list" id="list"></ul>
+    <!-- <li class="item"><strong>1</strong>Cake</li> -->
+  </main>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
